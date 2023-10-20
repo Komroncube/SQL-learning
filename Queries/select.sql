@@ -9,3 +9,6 @@ select name, count from fruits union all select name, count from Vegetables;
 
 select * from Vegetables
 where  name in (select name from Vegetables where count>20);
+
+select * from fruits 
+where name in (select name from Vegetables);
