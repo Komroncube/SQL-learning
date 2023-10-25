@@ -14,3 +14,5 @@ select * from fruits
 where name in (select name from Vegetables);
 
 select id, name from Vegetables where name = any (select name from fruits where count>2);
+
+select * from [Vegetables];
