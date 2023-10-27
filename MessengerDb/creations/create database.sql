@@ -18,3 +18,5 @@ create table Messages
     MessageText text,
     Created_at datetime default getdate(),
 );
+select * from messages;
+select * from users;
