@@ -13,8 +13,8 @@ create table Users
 create table Messages
 (
     id integer IDENTITY(1,1) primary key,
-    Sender integer,
-    Recepient integer,
+    Sender integer foreign key REFERENCES Users(id),
+    Recepient integer foreign key REFERENCES Users(id),
     MessageText text,
     Created_at datetime default getdate(),
 );

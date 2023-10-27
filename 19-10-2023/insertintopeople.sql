@@ -28,5 +28,7 @@ VALUES
 )
 -- Add more rows here
 GO
-
+insert into Vegetables values (10,'potato', 390, 39000)
+select * from Vegetables;
 create database ECOMMERCE
+
