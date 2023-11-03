@@ -59,5 +59,5 @@ SELECT ColumnName, ColumnValue FROM @Results
 
 drop PROCEDURE FindInDatabase;
 
-exec FindInDatabase @InputParameter = "app";
+exec FindInDatabase @InputParameter = 5000;
 select * from Group;

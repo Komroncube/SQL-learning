@@ -51,4 +51,4 @@ END
 
 drop PROCEDURE SearchAllDatabasesDemo;
 
-EXEC SearchAllDatabasesDemo @InputParameter = 5000;
+EXEC SearchAllDatabasesDemo @InputParameter = "apple";
